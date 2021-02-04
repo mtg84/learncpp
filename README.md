@@ -10,6 +10,6 @@
 wsl.exe --list --running 
 ```
 ``` 
-wsl --terminate <DistributionName>. 
+wsl --terminate <DistributionName> 
 ```
 
