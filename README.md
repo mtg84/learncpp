@@ -32,3 +32,8 @@ Choose: `C++ (GDB/LLDB)`
 Choose: ` g++ build and debug active file`
 
 Press `F5` to debug
+
+<hr>
+
+## Pending
+- [ ] Find a way to automatically ignore the binaries with no extension. :sweat_smile:
