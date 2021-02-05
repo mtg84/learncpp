@@ -31,6 +31,8 @@
 *.out
 *.app
 
+## It does ignore the binaries without extension whith this. But it does ignore everything else it seems
+## /[^\.]* 
 
 # .Vscode
 .vscode/*
