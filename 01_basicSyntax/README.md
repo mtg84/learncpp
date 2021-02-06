@@ -69,6 +69,15 @@ The ```& ``` operator is formally called the <b>reference operator </b>, but in 
 
 In this context ```*``` is called the <b>pointer dereference operator</b>. It is used to get at the value pointed to by a pointer.
 
+## References
 
+There is no need to dereference a reference. No special punctuation required. 
+The value of the reference is always the value of the referred variable.
+
+Once the reference is defined it can be changed. When I change the value of the reference I am not changing that, I am changing the value of the referred variable.
+
+So, a reference is not even really a variable, it is really just a trick of syntax. It is an entry in the namespace without any value of its own.
+
+<b>It is recommended to declare a reference with the const modifier</b>.
 
 
