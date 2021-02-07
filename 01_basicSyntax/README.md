@@ -11,7 +11,7 @@ main is called by the OS.
 #include <cstdio>
 ```
 
-The include directive instructs the preprocessor to include another file to pass to the compiler.
+The include directive is a <b>preprocessor directive</b>, and instructs the preprocessor to include another file to pass to the compiler.
 
 This includes the C Standard IO header file.
 
@@ -80,4 +80,8 @@ So, a reference is not even really a variable, it is really just a trick of synt
 
 <b>It is recommended to declare a reference with the const modifier</b>.
 
+## Primitive arrays
 
+It is inherited from the C language.
+
+A <b>primitive</b> is a type that is defined as part of a language, as opposed to a <b>derived type</b> that is defined in a <u>structure</u> or a <u>class</u>.
